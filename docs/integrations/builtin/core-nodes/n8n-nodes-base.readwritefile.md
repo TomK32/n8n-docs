@@ -62,6 +62,8 @@ This operation includes a single option, whether to **Append** data to an existi
 
 ## File locations
 
+Access to files is restricted by the [`N8N_RESTRICT_FILE_ACCESS_TO`](/hosting/configuration/environment-variables/security.md)/hosting/configuration/environment-variables/security.md environment variable.
+
 If you run n8n in Docker, your command runs in the n8n container and not the Docker host.
 
 This node looks for files relative to the n8n install path. n8n recommends using absolute file paths to prevent any errors.
